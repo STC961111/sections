@@ -1,0 +1,30 @@
+html {
+  font-family: Lato, sans-serif;
+  box-sizing: border-box;
+  background-color: #eee9de;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+div {
+  margin: 1.5rem;
+  max-width: 25em;
+  display: inline;
+}
+
+img {
+  padding: 1em;
+  display: inline;
+}
+
+p {
+  padding: 2em;
+  display: inline;
+}
+
+button {
+  padding: .4em .75em .5em;
+}
