@@ -1,7 +1,7 @@
 html {
+  background-color: #eee9de;
   font-family: Lato, sans-serif;
   box-sizing: border-box;
-  background-color: #eee9de;
   line-height: 1.5;
 }
 
@@ -9,22 +9,46 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
+header {
+  text-align: left;
+}
+
 div {
-  margin: 1.5rem;
+  display: inline-block;
+  text-align: left;
+  padding: 1em;
   max-width: 25em;
-  display: inline;
+  vertical-align: middle;
+}
+
+
+h2 {
+  margin-top: 0;
+}
+
+section {
+  text-align: center;
+  padding: 2em 0;
 }
 
 img {
-  padding: 1em;
-  display: inline;
+  display: block;
+  width: 100%;
 }
 
-p {
-  padding: 2em;
-  display: inline;
+.btn {
+  border: 2px solid #333;
+  border-radius: 6px;
+  font-size: 1.2em;
+  text-decoration: none;
+  padding: .5em;
+  display: inline-block;
 }
 
-button {
-  padding: .4em .75em .5em;
+.btn:hover {
+  background-color: #666;
 }
